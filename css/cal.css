@@ -1,0 +1,232 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cal {
+    width: 58rem;
+    height: 40rem;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-rows: 2em 0.5fr 6fr;
+    color: rgba(158, 157, 157, 0.13);
+}
+.month {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1rem;
+}
+.month:focus {
+    outline: none;
+}
+.year {
+    border: none;
+    cursor: pointer;
+}
+.year:focus {
+    outline: none;
+}
+
+.weeks {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    cursor: pointer;
+}
+.week {
+    padding: 0px 1rem;
+    cursor: pointer;
+}
+
+.dates {
+    height: 35rem;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: baseline;
+
+}
+.date {
+    padding-top: 1rem;
+    padding-left:1rem; 
+    height: 6rem;
+    box-shadow: 0 0 1px rgb(195, 195, 195);
+    cursor: pointer;
+    font-weight: 600;
+}
+.date:active {
+    border: 1px solid white;
+    background: rgba(100, 99, 99, 0.041);
+}
+span.btn1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.1fr;
+    padding-right: 1rem;
+}
+span.btn2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.1fr;
+    padding-right: 1rem;
+}
+.blood {
+    background: #f88383;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.blood:active {
+    background: #f883833d;
+}
+.blood1 {
+    background: #f7c292;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.blood1:active {
+    background: #f7c39250;
+}
+span.btn1 > button {
+    border: none;
+    height: 30px;
+    width: 85px;
+    color: white;
+}
+span.btn2 > button {
+    border: none;
+    height: 30px;
+    width: 35px;
+    color: white;
+}
+
+.nav2 {
+    margin-top: 30px;
+}
+
+
+
+/* middlenav */
+.middlenav {
+    height: 900px;
+    background-color: white;
+    color :#434b65;
+
+}
+.middle {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+}
+.middle > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bigfont {
+    font-size: 2.2em;
+    cursor: pointer;
+}
+select.darkgrey {
+    cursor: pointer;
+}
+.myimg {
+    height: 45px;
+    width: 45px;
+    border-radius: 22.5px;
+    text-align: center;
+    background: linear-gradient(180deg, #ee86bf 0%, #a26fed 100%);
+    color: white;
+    font-size: 1.5em;
+    margin: 0px;
+}
+.myimg1 {
+    height: 45px;
+    width: 45px;
+    border-radius: 22.5px;
+    background-image:url(../images/tina.jpg);
+    margin: 0px;
+    background-repeat: round;
+}
+.myimg2 {
+    height: 45px;
+    width: 45px;
+    border-radius: 22.5px;
+    background-image:url(../images/donald.jpg);
+    margin: 0px;
+    background-repeat: round;
+}
+.myimg3 {
+    height: 45px;
+    width: 45px;
+    border-radius: 22.5px;
+    background-image:url(../images/jack.jpg);
+    margin: 0px;
+    background-repeat: round;
+}
+.myimg4 {
+    height: 45px;
+    width: 45px;
+    border-radius: 22.5px;
+    text-align: center;
+    background: linear-gradient(180deg, #f25555 0%, #fb72ae 100%);
+    color: white;
+    font-size: 1.4em;
+    margin: 0px;
+}
+.myimg5 {
+    height: 45px;
+    width: 45px;
+    border-radius: 22.5px;
+    text-align: center;
+    background: linear-gradient(180deg, #a2acf1 0%, #b482d3 100%);
+    color: white;
+    font-size: 1.4em;
+    margin: 0px;
+}
+.myimg6 {
+    height: 45px;
+    width: 45px;
+    border-radius: 22.5px;
+    text-align: center;
+    background: linear-gradient(180deg, #ffe35a 0%, #ffb064 100%);
+    color: white;
+    font-size: 1.4em;
+    margin: 0px;
+}
+.bigdot {
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+.profile {
+    width: 70%;
+    cursor: pointer;
+}
+.profile:active {
+    padding: 1em;
+    border: 1px solid rgb(155, 151, 151);
+    border-radius: 5px;
+}
+.profile > div > p {
+    font-size: 1em;
+    margin-top:4px;
+}
+.profile > a > div > h4 {
+    margin: 0px;
+    padding: 7.8px;
+}
+.profile > div > p > a {
+    color: black;
+    color: #434b65;
+    font-weight: bold;
+
+
+}
+.top2 {
+    margin-top: 30px;
+}
